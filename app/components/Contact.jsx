@@ -56,7 +56,7 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
                         placeholder="Leave a comment..."></textarea>
                     </div>
                     <button type="submit" className="py-3 flex px-5 text-sm font-medium text-center   gap-3 rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 ">Send message
-                        <Image src={isDarkMode ? assets.mailWhite : assets.mailDark} className='w-7' />
+                        <Image src={isDarkMode ? assets.mailWhite : assets.mailDark} className='w-7' alt='->'/>
                     </button>
 
                     <p className='mt-4'>{result}</p>

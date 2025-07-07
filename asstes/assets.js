@@ -35,6 +35,7 @@ import ds from './ds.png'
 import mailWhite from "./mail_icon_dark.png"
 import mailDark from "./mail_icon.png"
 import closeWhite from "./close-white.png"
+import helog from "./favlog.ico"
 import work2 from './work-2.png'
 import work3 from './work-3.png'
 import work4 from './work-4.png'
@@ -43,6 +44,7 @@ import sun from "./sun.svg";
 import arrowDark from "./arrow-icon-dar.png";
 
 export const assets = {
+    helog,
     mailDark,
     mailWhite,
     closeWhite,
